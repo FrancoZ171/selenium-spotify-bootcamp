@@ -5,16 +5,20 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class ElementosWebSelenium {
     public static void main(String[] args) throws InterruptedException {
 
-        String rutaDriver= System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\chromedriver.exe";
+        String rutaDriver= "D:\\Program Files\\IntelliJ Projects\\SeleniumPrimerosPasos1\\src\\test\\resources\\drivers\\chromedriver.exe";
 
         System.setProperty("webdriver.chrome.driver",rutaDriver);
 
-        WebDriver driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--lang=es");
+        WebDriver driver = new ChromeDriver(options);
+
 
         driver.navigate().to("https://open.spotify.com/");
 
@@ -111,7 +115,7 @@ public class ElementosWebSelenium {
             System.out.println("Buuuu");
         }
 
-
         driver.quit();
+
     }
 }
