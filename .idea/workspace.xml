@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765f7655-bde7-44bb-ac40-fae2db051b24" name="Changes" comment="" />
+    <list default="true" id="765f7655-bde7-44bb-ac40-fae2db051b24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Spotify Casos de Prueba.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/domingo.saavedra/Downloads/SeleniumPrimerosPasos&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Franco/Pictures/Camera Roll/SeleniumPrimerosPasos_06_12/SeleniumPrimerosPasos/src/test/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\domingo.saavedra\Downloads\SeleniumPrimerosPasos\src\test\resources\drivers" />
@@ -51,22 +57,9 @@
       <recent name="ejemplosSelenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CasosDePrueba">
+  <component name="RunManager" selected="TestNG.CasosDePrueba.TC06_Correo_No_Coincide">
     <configuration name="ElementosWebSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejemplosSelenium.ElementosWebSelenium" />
-      <module name="SeleniumPrimerosPasos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ejemplosSelenium.ElementosWebSelenium" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EsperasSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejemplosSelenium.EsperasSelenium" />
       <module name="SeleniumPrimerosPasos" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP001_Registro_Fallido_Captcha_en_blanco" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.TC04_Nombre_Perfil_En_Blanco" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimerosPasos" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +98,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP001_Registro_Fallido_Captcha_en_blanco" />
+      <option name="METHOD_NAME" value="TC04_Nombre_Perfil_En_Blanco" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP002_Registro_Fallido_Captcha_en_blanco" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.TC05_Correo_Invalido" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimerosPasos" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +116,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP002_Registro_Fallido_Captcha_en_blanco" />
+      <option name="METHOD_NAME" value="TC05_Correo_Invalido" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasosDePrueba.TC06_Correo_No_Coincide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPrimerosPasos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
+      <option name="METHOD_NAME" value="TC06_Correo_No_Coincide" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CasosDePrueba" />
-        <item itemvalue="TestNG.CasosDePrueba.CP002_Registro_Fallido_Captcha_en_blanco" />
-        <item itemvalue="TestNG.CasosDePrueba.CP001_Registro_Fallido_Captcha_en_blanco" />
-        <item itemvalue="Application.EsperasSelenium" />
+        <item itemvalue="TestNG.CasosDePrueba.TC06_Correo_No_Coincide" />
         <item itemvalue="Application.ElementosWebSelenium" />
+        <item itemvalue="TestNG.CasosDePrueba" />
+        <item itemvalue="TestNG.CasosDePrueba.TC05_Correo_Invalido" />
+        <item itemvalue="TestNG.CasosDePrueba.TC04_Nombre_Perfil_En_Blanco" />
       </list>
     </recent_temporary>
   </component>
@@ -162,5 +173,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java</url>
+          <line>147</line>
+          <properties class="tests.CasosDePrueba" method="TC06_Correo_No_Coincide">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
